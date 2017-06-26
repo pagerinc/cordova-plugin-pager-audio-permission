@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-pager-audio-permission" version="0.0.1">
+  <name>Audio Permission</name>
+  <description>Cordova Audio Permission Plugin</description>
+  <license>UNLICENSED</license>
+  <keywords>cordova,audio,permission</keywords>
+  <platform name="android">
+    <config-file target="AndroidManifest.xml" parent="/*">
+      <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    </config-file>
+  </platform>
+</plugin>

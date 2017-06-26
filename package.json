@@ -1,0 +1,20 @@
+{
+  "name": "cordova-plugin-pager-audio-permission",
+  "version": "0.0.1",
+  "description": "Cordova Audio Permission Plugin",
+  "cordova": {
+    "id": "cordova-plugin-pager-audio-permission",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "audio",
+    "permission",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Pager Inc.",
+  "license": "UNLICENSED"
+}
